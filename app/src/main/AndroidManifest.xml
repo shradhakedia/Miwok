@@ -11,24 +11,49 @@
 
         <activity
             android:name=".ColorsActivity"
-            android:label="@string/colors" />
+            android:label="@string/colors"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".FamilyActivity"
-            android:label="@string/family_members"/>
+            android:label="@string/family_members"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".PhrasesActivity"
-            android:label="@string/phrases" />
+            android:label="@string/phrases"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".NumbersActivity"
-            android:label="@string/numbers" />
+            android:label="@string/numbers"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
 
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
+                <!--combination of action and category used in activity which we want see first on the launch of the app-->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

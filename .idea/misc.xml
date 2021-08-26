@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/activity_category.xml" value="0.1" />
         <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/list_item.xml" value="0.1" />
-        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/word_list.xml" value="0.1" />
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/fragment_family.xml" value="0.1" />
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/fragment_numbers.xml" value="0.1" />
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/fragment_phrase.xml" value="0.1" />
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/list_item.xml" value="0.264" />
+        <entry key="..\:/sem 2/Todo/Miwok/app/src/main/res/layout/word_list.xml" value="0.536" />
       </map>
     </option>
   </component>
@@ -14,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
